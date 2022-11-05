@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rentACar:war">
+    <output-path>$PROJECT_DIR$/rentACar/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rentACar</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rentACar-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="rentACar:war exploded" />
+    </root>
+  </artifact>
+</component>
